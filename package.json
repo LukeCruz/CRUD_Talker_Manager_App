@@ -1,0 +1,37 @@
+{
+  "name": "Talker-Manager-nodeJS",
+  "version": "1.0.0",
+  "description": " CRUD nodeJS",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": " node index.js",
+    "dev": "nodemon index.js --ignore talker.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukeCruz/Talker-Manager-nodeJS.git"
+  },
+  "keywords": [],
+  "author": "Luke Cruz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LukeCruz/Talker-Manager-nodeJS/issues"
+  },
+  "homepage": "https://github.com/LukeCruz/Talker-Manager-nodeJS#readme",
+  "dependencies": {
+    "@types/node": "^18.0.4",
+    "eslint": "^8.19.0",
+    "express": "^4.18.1",
+    "express-rescue": "^1.1.31",
+    "frisby": "^2.1.3",
+    "jest": "^28.1.3",
+    "node": "^18.5.0",
+    "nodemon": "^2.0.19",
+    "nvm": "0.0.4",
+    "sucrase": "^3.23.0"
+  }
+}
